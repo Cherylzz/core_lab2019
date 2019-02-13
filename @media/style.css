@@ -1,0 +1,100 @@
+body {
+  background-color: #D4DFE6;
+}
+
+/*
+@media only screen and (max-width: 1200px) {
+  body {
+      background-color: #D4DFE6;
+  }
+}
+*/
+
+.boxed1{
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px; 
+    vertical-align: top;
+    color: white;
+    font-size: 20px;
+		}
+
+.boxed2{
+    display: inline-block;
+    width: 50%;    
+    margin-left: 50%;
+    box-sizing: border-box;
+    padding: 10px; 
+    vertical-align: top;
+    color: white;
+    font-size: 20px;
+		}
+
+
+@media only screen and (max-width: 1200px) {
+  body {
+    background-color: #FADAD8;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: #c8c8a9;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: #f6ea8c;
+  }
+}
+    
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #6d9d88;
+  }
+}
+    
+
+
+@media screen and (max-width: 600px) and (min-width: 400px), (min-width: 900px) {
+  div.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    margin-top: 100px;
+    border: 8px dotted #fc913a;
+    background: #f9d423;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 400px), (min-width: 1300px) {
+  div.square {
+    width: 200px;
+    height: 200px;
+    margin-left: 500px;
+    border: 8px dotted #fc913a;
+    background: #f9d423;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 400px), (min-width: 1300px) {
+  div.circle1 {
+    width: 300px;
+    height: 300px;
+    margin-left: 200px;
+    border: 8px inset #fc913a;
+    background: #f9d423;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 400px), (min-width: 1300px) {
+  div.square1 {
+    width: 200px;
+    height: 200px;
+    margin-left: 500px;
+    border: 8px dotted #fc913a;
+    background: #f9d423;
+  }
+}

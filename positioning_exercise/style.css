@@ -1,0 +1,56 @@
+.square1 {
+    height: 600px;
+    width: 600px;
+    background-color: red;
+    margin:10px;
+}
+    
+.smallsquare {
+    background-color: aqua;
+    height:300px;
+    width:300px;
+    margin-left: 50%;
+}
+    
+.square2{
+    width:600px;
+    height:600px;
+    background-color: blue;
+    margin:10px;
+}
+    
+ .smallsquare2_1{
+    width: 50%;
+    height: 25%;
+    background-color: pink;
+    margin-left: 50%;
+ }
+    
+.smallsquare2_2{
+    width: 50%;
+    height: 50%;
+    background-color: pink;
+    margin-top: 25%;
+}  
+
+.square3 {
+    height: 600px;
+    width: 600px;
+    background-color: red;  
+    margin: 10px;
+}
+
+.smallsquare3_1{
+    width: 50%;
+    height: 50%;
+    background-color: purple;
+    margin-left: 25%;
+    margin-bottom: 25%;
+}
+
+.square4{
+    width:600px;
+    height:600px;
+    background-color: black;
+}
+ 
