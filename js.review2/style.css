@@ -1,0 +1,33 @@
+*{
+    font-size: 30px;
+}
+
+li{
+    font-family: arial;
+    font-style: italic;
+}
+
+.myaddedListElement{
+    color: blue;
+}
+
+#imageButton{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#imageButton:hover{
+    transform: scale(1.1);
+}
+
+img{
+    width: 500px;
+}
+
+.moveLeft {
+    margin-left: 300px;
+}

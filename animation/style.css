@@ -1,43 +1,19 @@
+   
 /*
-@keyframes moving{
-	0% {
-		transform: translate(-300px, 0);
-	}
+<div id="head">
+    <div class="mouth" id="mouthOne"></div>
+    <div class="mouth" id="mouthTwo"></div> 
+</div>
+   
+   <div class="arms" id="armOne"></div>
+   <div class="arms" id="armTwo"></div> 
+    
+    <div id="body">
+        <div class="legs" id="legOne"></div>
+        <div class="legs" id="legTwo"></div>
+    </div>
 
-	100%{
-		transform: translate(100vw, 0);
-	}
-}
 */
-
-
-@keyframes legOne{
-	0%{
-		transform: rotate(40deg);
-	}
-
-	50%{
-		transform: rotate(60deg);
-	}
-
-	100%{
-		transform: rotate(40deg);
-	}
-}
-
-@keyframes legTwo{
-	0%{
-		transform: rotate(-40deg);
-	}
-
-	50%{
-		transform: rotate(-60deg);
-	}
-
-	100%{
-		transform: rotate(-40deg);
-	}
-}
 
 
 @keyframes timeOfDay{
@@ -70,175 +46,132 @@
 	}
 }
 
-
 html{
 	background-color: lightblue;
 	animation-name: timeOfDay;
 	animation-duration: 30s;
 	animation-iteration-count: infinite;
 	animation-fill-mode: forwards;
-
 }
 
 
-#ground{
-	width: 100vw;
-	height: 10px;
-	background-color: #5e5e5e;
-}
 
-#wrapper{
-    margin-left: 300px;
-	position: relative;
-	height: 800px;
-	width: 250px;
-	animation-name: moving;
-	animation-duration: 8s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
-	animation-iteration-count: infinite;
-	
-}
-
-#head{
-	width: 120px;
-	height: 120px;
+#head {
+    width: 200px;
+	height: 200px;
 	background-color: yellow;
-    border-top-left-radius: 60px;
-    border-top-right-radius: 60px;
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
-    margin-left: 35%;
-    margin-top: 50%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    margin-left: 41%;
+    margin-top:7%;
 }
-
-/*
-.mouth {
-    margin-left: 13%;
-    margin-top: 20%;
-}
-*/
-#mouthOne{
-    width: 80px;
-    height: 30px;
-    background-color: orange;
-    border-radius: 100px;
-    margin-top: 20%;
-    margin-left: 8%;
-    position: absolute;
-    
-}
-
-/*
-#mouthTwo{
-    width: 60px;
-    height: 20px;
-    background-color: orange;
-    border-radius: 100px;
-    margin-left: 22%;
-    margin-top: 20%;
-    position: relative;
-
-}
-*/
 
 #body{
-	width: 140px;
-	height: 160px;
+	width: 240px;
+	height: 250px;
 	background-color: yellow;
-	border-top-left-radius: 80px;
-	border-top-right-radius: 80px;
+	border-top-left-radius: 100px;
+	border-top-right-radius: 100px;
     border-bottom-left-radius: 80px;
 	border-bottom-right-radius: 80px;
-    margin-left: 25%;
-    margin-bottom: 600%;
+    margin-left: 39.5%;
 }
 
-#bodyB{
-	width: 300px;
-	height: 300px;
-	background-color: transparent;
-    margin-bottom: 50%;
-    position: absolute;
+@keyframes armOne{
+	0%{
+		transform:rotate(20deg);
+	}
+
+	50%{
+		transform:rotate(40deg);
+	}
+
+	100%{
+		transform:rotate(20deg);
+	}
 }
 
-/*
-.arms{
-    width: 30px;
-    height: 80px;
-    background-color: yellow;   
-    margin-bottom: 30%;
+@keyframes armTwo{
+	0%{
+		transform:rotate(-20deg);
+	}
+
+	50%{
+		transform:rotate(-40deg);
+	}
+
+	100%{
+		transform:rotate(-20deg);
+	}
 }
-*/
 
 #armOne{
-    border-top-left-radius: 30px;
-    width: 30px;
-    height: 80px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 10px;
+    width: 50px;
+    height: 140px;
     background-color: yellow;
-    margin-left: 15%;
-    margin-bottom:200%;
-
+    transform: rotate(8deg);
+    margin-left: 34.5%;
+    margin-top: 2%;
+    position: absolute;
 }
 
-/*
 #armTwo{
-    border-top-right-radius: 30px;
-    width: 30px;
-    height: 80px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 10px;
+    width: 50px;
+    height: 140px;
     background-color: yellow;
-    margin-left: 500px;
-    margin-bottom:1000%;
-    position: absolute;
-    display: inline-block;
-    float: right;
-}
-*/
-
-.arm2{
-    width: 30px;
-    height: 80px;
-    background-color: orange;
+    margin-left:58.5%;
+    transform: rotate(-8deg);
+    margin-top: 2%;
     position: absolute;
 }
 
-.legs{
-	position: relative;
-	width: 10px;
-	height: 80px;
-	background-color: #21ff00;
-	display: inline-block;
-    border-radius: 5px;
+#armOne{
+    animation-name: armOne;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 
-#legOne{
-    width: 50px;
-    height: 50px;
-    background-color: orange;
-    margin-top: 72%;
-    transform: rotate(40deg);
+#armTwo{
+    animation-name: armTwo;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 
-#legTwo{
-    width: 50px;
-    height: 50px;
-    background-color: orange;
-    margin-left: 25%;
-    margin-top: 40%;
-    transform: rotate(40deg);
+@keyframes legOne{
+	0%{
+		transform: rotate(40deg);
+	}
+
+	50%{
+		transform: rotate(60deg);
+	}
+
+	100%{
+		transform: rotate(40deg);
+	}
 }
 
-.foot{
-	position: absolute;
-	left: 10px;
-	bottom: 0;
-	background-color: black;
-	width: 50px;
-	height: 30px;
-	border-top-left-radius: 20px;
-	border-top-right-radius: 20px;
-}
+@keyframes legTwo{
+	0%{
+		transform: rotate(-40deg);
+	}
 
+	50%{
+		transform: rotate(-60deg);
+	}
+
+	100%{
+		transform: rotate(-40deg);
+	}
+}
 
 #legOne{
     animation-name: legOne;
@@ -252,10 +185,111 @@ html{
     animation-iteration-count: infinite;
 }
 
-
-.whole{
-    margin-top: 20%;
+#legOne{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    transform: rotate(40deg);
+    position: absolute;
+    margin-top: 12%;
+    border-radius: 10px;
 }
 
+#legTwo{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    transform: rotate(40deg);
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 12%;
+    border-radius: 10px;
+}
 
+@keyframes mouthOne{
+	0%{
+		top:0%;
+	}
 
+	50%{
+		top:2%;
+	}
+
+	100%{
+		top:0;
+	}
+}
+
+@keyframes mouthTwo{
+	0%{
+		top:1%;
+	}
+    
+    25%{
+        top:0.5%;
+    }
+    
+	50%{
+		top:0%;
+	}
+    
+    75%{
+        top:0.5%;
+    }
+    
+	100%{
+		top:1;
+	}
+}
+
+#mouthOne{
+    animation-name: mouthOne;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+#mouthTwo{
+    animation-name: mouthTwo;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+#mouthOne{
+    width: 120px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 100px;
+    margin-top: 14%;
+    margin-left: 3%;
+    position: absolute; 
+}
+
+#mouthTwo{
+    width: 80px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 100px;
+    margin-left: 4.5%;
+    margin-top: 17%;
+    position: absolute;
+}
+
+#left{
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 20px;
+    margin-left: 3%;
+    margin-top: 4%;
+    position: absolute;
+}
+
+#right{
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 20px;
+    margin-left: 10.5%;
+    margin-top: 4%;
+    position: absolute;
+}

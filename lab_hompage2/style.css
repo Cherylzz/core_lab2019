@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text|Raleway');
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text|Megrim');
+
+@import url('https://fonts.googleapis.com/css?family=Economica');
+
+
+@keyframes timeOfDay{
+	0%{
+		background-color: #8283a7;
+	}
+
+	10%{
+		background-color: #a5d296;
+	}
+
+	40%{
+		background-color: #f1bbba;
+	}
+
+	60%{
+		background-color: #ffde72;
+	}
+
+	75%{
+		background-color: #a00055;
+	}
+
+	80%{
+		background-color: #F7AA97;
+	}
+
+	100%{
+		background-color: #9baec8;
+	}
+}
+
+html{
+	background-color: lightblue;
+	animation-name: timeOfDay;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+}
+
+.title1 {
+    margin-top: 3%;
+    font-family: 'Economica';
+    margin-left: 37%;
+    color: white;
+    font-size: 25;
+}
+
+.title2 {
+    font-family: 'Economica';
+    opacity: 0.5;
+    transform: scale(1, -1);
+    margin-left: 37%;
+    color: white;
+    font-size: 25;
+}
+
+#positioning {
+    width: 20%;
+    margin-top: 20%;
+    margin-left: 13%;
+    position: absolute;
+}
+
+#positioning:hover {
+    opacity: 0.5;
+}
+
+#animation {
+    width: 40%;
+    margin-top: 20%;
+    margin-left: 42%;
+    position: absolute;
+}
+
+#animation:hover {
+    opacity: 0.5;
+}
+
+#media {
+    width: 40%; 
+    margin-top: 50%;
+    margin-left: 10%;
+    position: absolute;
+}
+
+#media:hover {
+    opacity: 0.5;
+}
+
+#weave {
+    width: 22%; 
+    margin-top: 50%;
+    margin-left: 60%;
+    position: absolute;
+}
+
+#poem {
+   width: 40%; 
+    margin-top: 80%;
+    margin-left: 42%;
+    position: absolute;
+}

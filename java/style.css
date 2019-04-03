@@ -1,0 +1,16 @@
+body,html{
+    font-size: 20px;
+}
+
+#rapper{
+    transition: font-size 0.5s;
+}
+
+#colorDiv{
+    transition: color 2s;
+}
+
+.text-color{
+    color: red;
+    transition: color 1s;
+}

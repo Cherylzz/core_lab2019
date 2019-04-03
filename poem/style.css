@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Gaegu|Srisakdi');
+
+body,html{
+    background-color: #CBA6C3;
+}
+
+#love {
+    background-color: #cff09e;
+    display:inline-block;
+   color: #CBA6C3;
+}
+
+#goodnight {
+   
+}
+
+ul li{
+    margin-left: 35%;
+    margin-top: 3%;
+    list-style-type: none;
+    font-family: 'Srisakdi', cursive;
+}
+
+*{
+	font-size: 30px;
+}
+
+
+#myList{
+	color: #cff09e;
+}
+
+
+.button{
+    margin-left: 10%;
+	display: inline-flex;
+	background-color: #cff09e;
+    color: #CBA6C3;
+    padding: 5px;
+    font-family: 'Srisakdi', cursive;
+}
+
+.button:hover{
+    border-radius: 100px;
+}

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text|Raleway');
+
+body,html{
+    background-color: black;
+}
+
+ul li{
+    margin-top: 1%;
+    list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+#title {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}

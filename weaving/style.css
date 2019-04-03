@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text|Raleway');
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text|Megrim');
+
+
+.weave {
+    margin-left: 10%;
+    padding: 30%;
+}
+
+.text {
+   font-size: 30px;
+    font-family:'Raleway', sans-serif;;
+}
