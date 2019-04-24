@@ -1,0 +1,67 @@
+<html>
+<head>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="style.css" >
+
+</head>
+<body>
+
+<!--
+<div id="buttonC">
+    <button type="button" 
+onclick="document.getElementById('body2').style.backgroundColor = 'transparent'">
+Click Me For More!</button>
+</div>
+-->
+
+<div class="pond">
+<img src="../images/pond.svg" alt="pond" width="100%;" height="auto">
+</div>
+
+<button id="button" onclick="myFunction()">Duck</button>
+
+
+<div id="myDIV">
+ <img src="../images/duck.gif" alt="weaveImg" width="100%;">
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+<div class="monkey">
+<img src="../images/monkey.gif" alt="monkey" width="70%;" height="auto">
+</div>
+
+<button id="button2" onclick="myFunction()">Try it</button>
+
+
+<div id="myDIV2">
+ <img src="../images/leaf.png" alt="weaveImg" width="80%;">
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+
+</body>
+</html>
