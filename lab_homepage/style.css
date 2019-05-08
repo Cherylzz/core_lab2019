@@ -1,6 +1,47 @@
+
+@keyframes timeOfDay{
+	0%{
+		background-color: #262626;
+	}
+
+	10%{
+		background-color: #8cfff9;
+	}
+
+	40%{
+		background-color: #f1ff87;
+	}
+
+	60%{
+		background-color: #ffde72;
+	}
+
+	75%{
+		background-color: #a00055;
+	}
+
+	80%{
+		background-color: #262626;
+	}
+
+	100%{
+		background-color: #262626;
+	}
+}
+
+html{
+	background-color: lightblue;
+	animation-name: timeOfDay;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+}
+
+
 #assignment1 {
     text-align: center;
     left: 50%;
-    top: 10%;
+    margin-top: 10%;
 }
+
 
