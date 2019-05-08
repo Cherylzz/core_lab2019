@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 
 @keyframes timeOfDay{
 	0%{
@@ -29,6 +30,12 @@
 	}
 }
 
+p {
+    color: white;
+    font-family: 'press start 2P';
+    background-color: aquamarine;
+}
+
 html{
 	background-color: lightblue;
 	animation-name: timeOfDay;
@@ -37,11 +44,190 @@ html{
 	animation-fill-mode: forwards;
 }
 
+#assignment1{
+    left: 30%;
+    top: 10%;
+    position: relative;
+    animation: float1 6s ease-in-out infinite;
+}
 
-#assignment1 {
-    text-align: center;
-    left: 50%;
-    margin-top: 10%;
+#assignment1:hover {
+    opacity: 0.6;
+}
+
+@keyframes float1 {
+	0% {
+		transform: translate(0,30px);
+	}
+	50% {
+		transform: translate(-40px,60px);
+	}
+    70% {
+		transform: translate(-20px,40px);
+	}
+	100% {
+		transform: translate(0,30px);
+	}
 }
 
 
+
+#positioning {
+    top: 10%;
+    position: relative;
+    animation: float2 6s ease-in-out infinite;
+}
+
+#positioning:hover {
+    opacity: 0.6;
+}
+
+@keyframes float2 {
+	0% {
+		transform: translate(0,30px);
+	}
+	50% {
+		transform: translate(-20px,-60px);
+	}
+    70% {
+		transform: translate(-40px,-40px);
+	}
+	100% {
+		transform: translate(0,30px);
+	}
+}
+
+#animation {
+    top: -40%;
+    left: 40%;
+    position: relative;
+    animation: float3 6s ease-in-out infinite;
+    z-index: 5;
+}
+
+#animation:hover {
+    opacity: 0.6;
+}
+
+@keyframes float3 {
+	0% {
+		transform: translate(0,20px);
+	}
+	50% {
+		transform: translate(-20px,40px);
+	}
+    70% {
+		transform: translate(-40px,80px);
+	}
+	100% {
+		transform: translate(0,20px);
+	}
+}
+
+#media {
+    top: -35%;
+    left: 10%;
+    position: relative;
+    animation: float4 6s ease-in-out infinite;
+    z-index: 5;
+}
+
+#media:hover {
+    opacity: 0.6;
+}
+
+@keyframes float4 {
+	0% {
+		transform: translate(0,-20px);
+	}
+	50% {
+		transform: translate(40px,-40px);
+	}
+    70% {
+		transform: translate(80px,-60px);
+	}
+	100% {
+		transform: translate(0,-20px);
+	}
+}
+
+#weave {
+    top: -60%;
+    left: 50%;
+    position: relative;
+    animation: float5 6s ease-in-out infinite;
+    z-index: 5;
+}
+
+#weave:hover {
+    opacity: 0.6;
+}
+
+@keyframes float5 {
+	0% {
+		transform: translate(0,20px);
+	}
+	50% {
+		transform: translate(-20px,40px);
+	}
+    70% {
+		transform: translate(-40px,80px);
+	}
+	100% {
+		transform: translate(0,20px);
+	}
+}
+
+#poem {
+    top: -60%;
+    left: 4%;
+    position: relative;
+    animation: float6 6s ease-in-out infinite;
+    z-index: 5;
+}
+
+#poem:hover {
+    opacity: 0.6;
+}
+
+@keyframes float6 {
+    0% {
+		transform: translate(0,30px);
+	}
+	50% {
+		transform: translate(-20px,-60px);
+	}
+    70% {
+		transform: translate(-40px,-40px);
+	}
+	100% {
+		transform: translate(0,30px);
+	}
+}
+
+#spring {
+    top: -100%;
+    left: 60%;
+    position: relative;
+    animation: float7 6s ease-in-out infinite;
+    z-index: 5;
+}
+
+#spring:hover {
+    opacity: 0.6;
+}
+
+@keyframes float7 {
+0% {
+		transform: translate(0,20px);
+	}
+	50% {
+		transform: translate(-20px,40px);
+	}
+    70% {
+		transform: translate(-40px,80px);
+	}
+	100% {
+		transform: translate(0,20px);
+	}
+}
