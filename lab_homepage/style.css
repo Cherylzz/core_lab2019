@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text|Raleway');
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text|Megrim');
+
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|VT323');
+
+/*
+@keyframes timeOfDay{
+	0%{
+		background-color: #8283a7;
+	}
+
+	10%{
+		background-color: #a5d296;
+	}
+
+	40%{
+		background-color: #f1bbba;
+	}
+
+	60%{
+		background-color: #ffde72;
+	}
+
+	75%{
+		background-color: #a00055;
+	}
+
+	80%{
+		background-color: #F7AA97;
+	}
+
+	100%{
+		background-color: #9baec8;
+	}
+}
+*/
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+
+.wave {
+    position: absolute;
+    z-index: -2;
+}
+
+/*
+html{
+	background-color: lightblue;
+	animation-name: timeOfDay;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+}
+*/
+
+h1 {
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 8vw;
+  font-weight: 900;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  background-size: 120% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -ms-background-clip: text;
+  -ms-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  background-image: linear-gradient(45deg, 
+                    #7794ff, 
+                    #44107A,
+                    #FF1361,
+                    #FFF800);
+  animation: .8s shake infinite alternate;
+}
+
+@keyframes shake {
+  0% { transform: skewX(-15deg); }
+  5% { transform: skewX(15deg); }
+  10% { transform: skewX(-15deg); }
+  15% { transform: skewX(15deg); }
+  20% { transform: skewX(0deg); }
+  100% { transform: skewX(0deg); }  
+}
+
+
+ul li{
+    margin-top: 1%;
+    list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.lab{
+    margin-top: 2%;
+    font-size: 30px;
+    font-family: 'press start 2P';
+    text-align: center;
+}
+
+.lab:hover{
+    background-color: skyblue;
+}
+
+.studio{
+    margin-top: 10%;
+    font-size: 30px;
+    font-family: 'press start 2P';
+    text-align: center;
+}
+
+.studio:hover{
+    background-color: #d64072;
+}
+
+.classmate{
+    margin-left: 40%;
+    margin-top: 30%;
+}
+
+.classmate ul li{
+    font-size: 20px;
+    font-family: 'Megrim', cursive;
+}
+
+.classmate ul li:hover{
+    background-color: #5A9367;
+}
+
