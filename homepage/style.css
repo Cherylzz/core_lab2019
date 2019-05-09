@@ -42,7 +42,6 @@ body{
     background-color: black;
 }
 
-
 .wave {
     position: absolute;
     z-index: -2;
@@ -133,6 +132,6 @@ ul li{
 }
 
 .classmate ul li:hover{
-    background-color: #5A9367;
+    background-color: cyan;
 }
 
