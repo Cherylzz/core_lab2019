@@ -252,7 +252,7 @@ html{
 
 #poem {
     top: -60%;
-    left: 4%;
+    left: 30%;
     position: relative;
     animation: float6 6s ease-in-out infinite;
     z-index: 5;
@@ -301,5 +301,80 @@ html{
 	}
 	100% {
 		transform: translate(0,20px);
+	}
+}
+
+#weather {
+    position: relative;
+    animation: float8 6s ease-in-out infinite;
+}
+
+#weather:hover {
+    opacity: 0.6;
+}
+
+@keyframes float8 {
+	0% {
+		transform: translate(0,-20px);
+	}
+	50% {
+		transform: translate(40px,-40px);
+	}
+    70% {
+		transform: translate(80px,-60px);
+	}
+	100% {
+		transform: translate(0,-20px);
+	}
+}
+
+#array {
+    position: relative;
+    animation: float9 6s ease-in-out infinite;
+}
+
+#array:hover {
+    opacity: 0.6;
+}
+
+@keyframes float9 {
+	0% {
+		transform: translate(0,-20px);
+	}
+	50% {
+		transform: translate(40px,-40px);
+	}
+    70% {
+		transform: translate(80px,-60px);
+	}
+	100% {
+		transform: translate(0,-20px);
+	}
+}
+
+#game {
+    margin-bottom: 20%;
+    left: 40%;
+    position: relative;
+    z-index: 5;
+    animation: float10 6s ease-in-out infinite;
+}
+
+#game:hover {
+    opacity: 0.6;
+}
+
+@keyframes float10 {
+    0% {
+		transform: translate(0,30px);
+	}
+	50% {
+		transform: translate(-40px,60px);
+	}
+    70% {
+		transform: translate(-20px,40px);
+	}
+	100% {
+		transform: translate(0,30px);
 	}
 }

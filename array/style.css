@@ -1,17 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|Stylish');
 
-body,html{
-    background-color: black;
+html,
+body {
+    margin: 5%;
+    background-color: beige;
+}
+h1 {
+    color: lightskyblue;
+    font-family: 'press start 2P';
+    text-align: center;
 }
 
-ul li{
-    margin-top: 1%;
-    list-style-type: none;
-    font-family: 'Raleway', sans-serif;
-    color: white;
+#container {
+     color: coral;
+    font-family: 'press start 2P';
+    text-align: center;
 }
 
-#title {
-    font-family: 'Raleway', sans-serif;
-    color: white;
-}
